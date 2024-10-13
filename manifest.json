@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "GCP Multi Account Redirect",
+  "description": "Auto redirect to company GSuite account",
+  "author": "lpgera",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://console.cloud.google.com/"
+  ],
+  "background": {
+    "scripts": ["backgroundScript.js"],
+    "persistent": true
+  }
+}
